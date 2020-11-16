@@ -1,5 +1,5 @@
 let btn = document.querySelector('#btn');
-let body = document.querySelector('body');
+let changeColor = document.querySelector('.changeColor');
 let indice = 0
 
 
@@ -7,11 +7,11 @@ btn.addEventListener("click",function(){
 
     if (indice==0)
 	{
-	body.style.backgroundColor="red";
+        changeColor.style.backgroundColor="red";
 	indice=1;
 	}else
 	{
-	body.style.backgroundColor="blue";
+	changeColor.style.backgroundColor="blue";
 	indice=0;	
 	}
 })

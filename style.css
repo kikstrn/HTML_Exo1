@@ -1,5 +1,8 @@
-body {
+.changeColor {
     background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 #divBtn{
